@@ -1,36 +1,35 @@
 # Análise-tendencias-mercado
 Projeto de análise exploratória de dados públicos para identificar padrões de consumo e tendências, utilizando bibliotecas de visualização.
 
-🛠 Tecnologias
-
-Python
-Pandas
-Matplotlib
-
-ESTRUTURA
+📁 analise-dados-python
  ├── data/
- │   └── vendas.csv
+ ├── notebooks/
+ ├── src/
  ├── images/
- │   └── grafico.png
- ├── analise_tendencias.py
- └── README.md
+ ├── README.md
+ └── requirements.txt
 
-🖥️ Como Executar
+Análise de Dados com Python e Pandas
+🎯 Objetivo
 
-    pip install pandas matplotlib
-    Executar analise_tendencias.py
+Exploração e limpeza de dados com Python e Pandas, gerando gráficos e insights.
+🛠️ Tecnologias
 
-CÓDIGO BASE
+    Python
 
-import pandas as pd  
-import matplotlib.pyplot as plt  
+    Pandas
 
-data = pd.read_csv('data/vendas.csv')  
-data['vendas'].plot()  
-plt.title('Tendência de Vendas')  
-plt.savefig('images/grafico.png')  
-plt.show()  
+    Matplotlib
 
-✅ Resultado
+    Seaborn
 
-Visualização gráfica clara das tendências de consumo.
+🚀 Como executar
+
+git clone https://github.com/Luisavanessa31/analise-dados-python.git  
+cd analise-dados-python  
+pip install -r requirements.txt  
+python src/main.py  
+
+📊 Resultados
+
+Relatórios gráficos com insights práticos.
